@@ -12,6 +12,7 @@ const routes: Routes = [
   // { path: 'footer', component: FooterComponent },
 
 ];
+import { MainModuleComponent } from './main-module.component';
 
 
 
@@ -22,6 +23,7 @@ const routes: Routes = [
     WeDoComponent,
     GalleryComponent,
     ContactUsComponent,
+    MainModuleComponent,
   ],
   imports: [
     CommonModule,RouterModule.forRoot(routes)
