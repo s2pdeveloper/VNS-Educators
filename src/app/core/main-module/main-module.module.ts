@@ -6,13 +6,16 @@ import { WeDoComponent } from './we-do/we-do.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { RouterModule, Routes } from '@angular/router';
+import { MainModuleComponent } from './main-module.component';
+import { SliderComponent } from './slider/slider.component';
+import { WorkWithUsComponent } from './work-with-us/work-with-us.component';
 const routes: Routes = [
-  // { path: '', component: ShareModuleComponent },
+  { path: '', redirectTo: 'main', pathMatch: 'full' },
+  {path: 'main', component: MainModuleComponent },
   // { path: 'header', component: HeaderComponent },
   // { path: 'footer', component: FooterComponent },
 
 ];
-import { MainModuleComponent } from './main-module.component';
 
 
 
@@ -24,9 +27,11 @@ import { MainModuleComponent } from './main-module.component';
     GalleryComponent,
     ContactUsComponent,
     MainModuleComponent,
+    SliderComponent,
+    WorkWithUsComponent,
   ],
   imports: [
-    CommonModule,RouterModule.forRoot(routes)
+    CommonModule, RouterModule.forChild(routes)
   ]
 })
 export class MainModuleModule { }
