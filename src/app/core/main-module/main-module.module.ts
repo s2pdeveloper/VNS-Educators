@@ -7,7 +7,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
-  // { path: '', component: ShareModuleComponent },
+  { path: 'main', component: MainModuleComponent },
   // { path: 'header', component: HeaderComponent },
   // { path: 'footer', component: FooterComponent },
 
@@ -26,7 +26,7 @@ import { MainModuleComponent } from './main-module.component';
     MainModuleComponent,
   ],
   imports: [
-    CommonModule,RouterModule.forRoot(routes)
+    CommonModule,RouterModule.forChild(routes)
   ]
 })
 export class MainModuleModule { }
