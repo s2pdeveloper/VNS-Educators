@@ -5,6 +5,7 @@ import { WeAreComponent } from './we-are/we-are.component';
 import { WeDoComponent } from './we-do/we-do.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { MainModuleComponent } from './main-module.component';
 
 
 
@@ -15,6 +16,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     WeDoComponent,
     GalleryComponent,
     ContactUsComponent,
+    MainModuleComponent,
   ],
   imports: [
     CommonModule
