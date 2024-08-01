@@ -1,0 +1,52 @@
+.container-fluid {
+  font-family: "Montserrat", Sans-serif;
+  .odd {
+    padding: 90px 20px;
+    .head {
+      font-size: 40px;
+      font-weight: 700;
+    }
+    .body {
+      font-size: 20px;
+      margin: 0px 0px 10px;
+      text-align: justify;
+    }
+    .search {
+      height: 26rem;
+    }
+    .founder {
+      height: 200px;
+      width: 200px;
+      border-radius: 300px;
+      margin: 10px;
+    }
+    .name {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .heading {
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+  .even {
+    background-color: #38B6E00F;
+    padding: 90px 30px;
+    .head {
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    .body {
+        font-size: 20px;
+        margin: 0px 10px 10px 0px ;
+        text-align: justify;
+      }
+      .text{
+        font-size: 20px;
+        margin: 0px 10px 20px 0px ;
+        padding-left: 5rem;
+        text-align: justify;
+      }
+  }
+}

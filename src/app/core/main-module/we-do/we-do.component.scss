@@ -1,0 +1,95 @@
+.container {
+    font-family: "Montserrat", Sans-serif;
+
+    .row {
+        .col-12 {
+            .heading {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+
+            p {
+                text-align: center;
+                font-size: 1.5rem;
+                margin-top: 1.5rem;
+            }
+
+            .btn_1 {
+                text-align: center;
+
+                .button_1 {
+                    width: 10rem;
+                    height: 3.5rem;
+                    border: 1px;
+                    border-radius: 2rem;
+                    margin-top: 1.7rem;
+                    text-align: center;
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+                    background-color: #38b6e0;
+                    cursor: pointer;
+                    transition: background-color 0.5s ease;
+                }
+
+                .button_1:hover {
+                    background-color: rgb(18, 18, 28);
+                    color: white;
+
+                }
+            }
+        }
+
+        .main_col {
+            .row {
+                margin-top: 4rem;
+
+                .col_secd {
+                    p {
+
+                        line-height: 3rem;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.btn_1 {
+
+    .button_1 {
+        width: 10rem;
+        height: 3.5rem;
+        border: 1px;
+        border-radius: 2rem;
+        margin-top: 0.5rem;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        background-color: #38b6e0;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+    }
+
+    .button_1:hover {
+        background-color: rgb(18, 18, 28);
+        color: white;
+
+    }
+}
+
+.card_last {
+    background-color: #17253e;
+}
+
+.last_card {
+    color: white;
+
+}
+
+.btn_2 {
+    width: 13rem;
+    height: 5rem;
+    border: 1px;
+    border-radius: 1rem;
+    background-color: #38b6e0;
+    color: white;
+
+}
