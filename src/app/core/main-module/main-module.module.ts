@@ -10,9 +10,12 @@ import { MainModuleComponent } from './main-module.component';
 import { SliderComponent } from './slider/slider.component';
 import { WorkWithUsComponent } from './work-with-us/work-with-us.component';
 const routes: Routes = [
-  { path: '', redirectTo: 'main', pathMatch: 'full' },
-  {path: 'main', component: MainModuleComponent },
-  // { path: 'header', component: HeaderComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  {path: 'home', component: MainModuleComponent },
+  { path: 'we-Are', component: WeAreComponent },
+  { path: 'we-Do', component: WeDoComponent },
+  { path: 'gallery', component: GalleryComponent },
+  { path: 'contact-Us', component: ContactUsComponent },
   // { path: 'footer', component: FooterComponent },
 
 ];
