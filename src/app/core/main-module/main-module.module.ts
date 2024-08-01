@@ -5,6 +5,13 @@ import { WeAreComponent } from './we-are/we-are.component';
 import { WeDoComponent } from './we-do/we-do.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { RouterModule, Routes } from '@angular/router';
+const routes: Routes = [
+  // { path: '', component: ShareModuleComponent },
+  // { path: 'header', component: HeaderComponent },
+  // { path: 'footer', component: FooterComponent },
+
+];
 
 
 
@@ -17,7 +24,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     ContactUsComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,RouterModule.forRoot(routes)
   ]
 })
 export class MainModuleModule { }
