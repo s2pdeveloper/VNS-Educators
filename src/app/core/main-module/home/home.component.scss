@@ -1,53 +1,214 @@
-
-
-.main-section{
+.main-section {
   padding-top: 6rem;
 
-}
-.main-btn .btn{
-  background-color: #38B6B0;
-  padding: 1rem;
-  border-radius: 25px;
-  color: #fff;
-  font-weight: bolder;
-  box-shadow: rgba(80, 189, 252, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-// -----------------------------------------
-.container-_lool h2 {
-  font-size: 2.5rem;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-  font-weight: bolder;
-}
-.View-btn {
-  display: flex;
-  justify-content: center;
-}
-.View-btn .btn{
-  background-color: #38B6B0;
-  padding: 0.7rem;
-  padding-right: 20px;
-  padding-left: 20px;
-  border-radius: 25px;
-  color: #fff;
-  font-weight: bolder;
+  h1 {
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 600;
+  }
 
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  p {
+    font-family: "Montserrat", Sans-serif;
+  }
+
+  a {
+    background-color: #38B6E0;
+    border-radius: 25px;
+    color: #fff;
+    padding: 1rem;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+
+  a:hover {
+    background-color: rgb(18, 18, 28);
+    color: white;
+  }
 }
-.card-body{
-  background-color: #38B6B0;
-  border-radius: 10px;
+
+// ------------------------------------------------------------------------------
+// .Slider-container {
+//   padding-top: 3rem;
+//   padding-bottom: 3rem;
+
+// }
+// .Slider-container h2 {
+//   padding-bottom: 2rem;
+//   font-size: 2.5rem;
+//   font-weight: bold;
+// }
+// .carousel-item {
+//   transition: transform 0.5s ease, opacity 0.5s ease;
+// }
+// .carousel-item.active.carousel-item-end {
+//   transform: translateX(100%);
+// }
+// .carousel-item-next.carousel-item-start {
+//   transform: translateX(-100%);
+// }
+// .carousel-item-prev.carousel-item-end {
+//   transform: translateX(100%);
+// }
+// .carousel-item-end.active.carousel-item-prev {
+//   transform: translateX(-100%);
+// }
+// .carousel-item-start.active.carousel-item-next {
+//   transform: translateX(100%);
+// }
+// -------------------------------------------------------------------------------
+.container-_lool {
+  h2 {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: "Montserrat", Sans-serif;
+  }
+
+  .View-btn {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    background-color: #38B6E0;
+    border-radius: 25px;
+    color: #fff;
+    padding: 0.7rem;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-family: "Montserrat", Sans-serif;
+  }
+
+  a:hover {
+    background-color: rgb(18, 18, 28);
+    color: white;
+  }
+
+  .card {
+    background-color: #38B6B0;
+    border-radius: 10px;
+  }
+
+  .card-body i {
+    font-size: 3rem;
+    margin-bottom: 1.7rem;
+  }
+
+  .card-body h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Montserrat", Sans-serif;
+  }
+
+  .card-body p {
+    font-size: 1.2rem;
+    font-family: "Montserrat", Sans-serif;
+  }
+  .card:hover{
+    background-color: rgba(0, 0, 0, 0.755);
+    .card-body i{
+      color: #38B6E0;
+    }
+    .card-body h3{
+      color: #ffffff;
+    }
+    .card-body p{
+      color: #ffffff;
+    }
+  }
 }
-.card-body i{
-  font-size: 3rem;
-  margin-bottom: 1.7rem;
+
+
+// --------------------------------------------------------------------------------
+
+.element-section {
+  .feature-box i {
+    font-size: 2.7rem;
+    color: #38B6B0;
+    margin-bottom: 15px;
+  }
+
+  .feature-box {
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .feature-box:hover {
+    background-color: #e1e6ec;
+  }
 }
-.card-body h3{
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: bold;
+// -----------------------------------------------------------------------------------------------------------------
+.lare-more{
+  .View-btn {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", Sans-serif;
+  }
+  a {
+    background-color: #38B6E0;
+    border-radius: 25px;
+    color: #fff;
+    padding: 1rem;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+
+  a:hover {
+    background-color: rgb(18, 18, 28);
+    color: white;
+  }
 }
-.card-body p {
-  font-size: 1.2rem;
+
+// ---------------------------------------------------------------------------
+.next-step {
+  background-color: #0f3a6b;
+  font-family: "Montserrat", Sans-serif;
+
+  .container {
+    padding: 4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    color: #B3BCD3;
+  }
+
+  h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .View-btn {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    background-color: #38B6E0;
+    border-radius: 25px;
+    color: #fff;
+    padding: 1rem;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+
+  a:hover {
+    background-color: rgb(18, 18, 28);
+    color: white;
+  }
 }
+// --------------------------------------------------------------------------------------
