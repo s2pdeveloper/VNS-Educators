@@ -1,61 +1,92 @@
-.container{
+.container-fluid {
   font-family: "Montserrat", Sans-serif;
-  .row {
-    .col-12 {
-      .heading {
-        font-size: 3rem;
-        font-weight: bold;
-      }
-
-      p {
-        text-align: center;
-        font-size: 1.5rem;
-        margin-top: 1.5rem;
-      }
-
-      .btn_1 {
-        text-align: center;
-
-        .button_1 {
-          width: 10rem;
-          height: 3.5rem;
-          border: 1px;
-          border-radius: 2rem;
-          margin-top: 1.7rem;
-          text-align: center;
-          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-          background-color: #38b6e0;
-          cursor: pointer;
-          transition: background-color 0.5s ease;
-        }
-
-        .button_1:hover {
-          background-color: rgb(18, 18, 28);
-          color: white;
-        }
-      }
+  font-family: "Montserrat", Sans-serif;
+  background-image: linear-gradient(
+      45deg,
+      #ffffff,
+      #cceffac4,
+      #dcf4fdd9,
+      rgb(255, 255, 255)
+    ),
+    url("../../../../assets/weAre.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  .odd {
+    padding: 90px 100px;
+    background: transparent;
+    .head {
+      font-size: 40px;
+      font-weight: 700;
     }
-
-    .main_col {
-      .row {
-        margin-top: 4rem;
-
-        .col_secd {
-          p {
-            line-height: 3rem;
-            font-size: 1.2rem;
-          }
-        }
-      }
+    .body {
+      font-size: 20px;
+      margin: 0px 0px 10px;
+      text-align: justify;
+    }
+  }
+  .even {
+    background-color: #68cbebc1;
+    padding: 90px 100px;
+    .head {
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    .body {
+      font-size: 20px;
+      margin: 0px 10px 10px 0px;
+      text-align: justify;
+    }
+    .text {
+      font-size: 20px;
+      margin: 0px 10px 20px 0px;
+      padding-left: 5rem;
+      text-align: justify;
     }
   }
 }
 
+.col-12 {
+  .heading {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .btn_1 {
+    text-align: center;
+
+    .button_1 {
+      width: 10rem;
+      height: 3.5rem;
+      border: 1px;
+      border-radius: 2rem;
+      margin-top: 1.7rem;
+      text-align: center;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      background-color: #38b6e0;
+      cursor: pointer;
+      transition: background-color 0.5s ease;
+    }
+
+    .button_1:hover {
+      background-color: rgb(18, 18, 28);
+      color: white;
+    }
+  }
+}
 .btn_1 {
   .button_1 {
     width: 10rem;
     height: 3.5rem;
     border: 1px;
+    text-align: center;
     border-radius: 2rem;
     margin-top: 0.5rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -69,15 +100,6 @@
     color: white;
   }
 }
-
-.card_last {
-  background-color: #17253e;
-}
-
-.last_card {
-  color: white;
-}
-
 .btn_2 {
   width: 13rem;
   height: 5rem;
@@ -86,4 +108,3 @@
   background-color: #38b6e0;
   color: white;
 }
-
