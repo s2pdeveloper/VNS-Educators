@@ -1,0 +1,9 @@
+.img-slider {
+    perspective: 1000px; /* Add perspective to create a 3D effect */
+    transition: transform 0.3s ease;
+  }
+  
+  .img-slider:hover {
+    transform: rotateY(10deg) rotateX(10deg); /* Rotate on hover to create 3D effect */
+  }
+  

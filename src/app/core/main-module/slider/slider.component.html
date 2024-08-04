@@ -1,1 +1,28 @@
 <p>slider works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <swiper-container
+        class="img-box"
+        [slidesPerView]="4"
+        [breakpoints]="swiperBreakpoints"
+        navigation
+      >
+        <ng-container>
+          <swiper-slide
+            class="product-item d-flex flex-column h-100"
+            *ngFor="let item of images"
+          >
+            <div class="card d-flex flex-column h-100 img-slider">
+              <img
+                class="img-fluid card-img-top"
+                [src]="item.img"
+                alt=""
+              />
+            </div>
+          </swiper-slide>
+        </ng-container>
+      </swiper-container>
+    </div>
+  </div>
+</div>
